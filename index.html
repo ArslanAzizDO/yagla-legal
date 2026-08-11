@@ -3,42 +3,85 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>YAGLA</title>
-<style>
-  :root { color-scheme: light; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 720px; margin: 0 auto; padding: 80px 20px;
-    line-height: 1.65; color: #2C2333; background: #F6F2F7;
-  }
-  .kicker { font-size: 0.75rem; font-weight: 700; letter-spacing: 2px; color: #7B5EA7; }
-  h1 { font-size: 2.5rem; letter-spacing: -1px; margin: 8px 0 16px; }
-  p.lead { font-size: 1.1rem; color: #6B6076; }
-  ul { padding-left: 20px; color: #6B6076; }
-  li { margin-bottom: 8px; }
-  .links { margin-top: 40px; }
-  .links a {
-    display: inline-block; margin-right: 12px; padding: 12px 20px;
-    background: #7B5EA7; color: #fff; border-radius: 12px;
-    text-decoration: none; font-weight: 700;
-  }
-  footer { margin-top: 60px; font-size: 0.85rem; color: #A99BB4; }
-</style>
+<title>YAGLA — One shared grocery list for the whole household</title>
+<meta name="description" content="YAGLA is a shared household grocery list. Everyone adds to the same list, and Shopping Mode sorts it by aisle so you walk the store once.">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<span class="kicker">YAGLA</span>
-<h1>One shared list, for the whole household</h1>
-<p class="lead">Everyone adds to the same grocery list, and a dedicated shopping
-mode walks it aisle by aisle so nothing gets missed.</p>
-<ul>
-  <li>Add from the sofa, see it in the shop — changes appear on everyone's phone straight away.</li>
-  <li>Shopping Mode groups the list the way the store is laid out.</li>
-  <li>Works offline; your changes sync when you're back on signal.</li>
-</ul>
-<div class="links">
-  <a href="./privacy.html">Privacy Policy</a>
-  <a href="./terms.html">Terms of Service</a>
+
+<div class="wrap">
+
+  <header class="site">
+    <a class="brand" href="index.html">
+      <img src="assets/icon.png" alt="YAGLA app icon">
+      <span>YAGLA</span>
+    </a>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1>One list,<br>everyone.</h1>
+      <p class="lead">The shared grocery list your whole household adds to, synced live.</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.tidoo.yagla">Get it on Google Play</a>
+    </section>
+
+    <div class="shots">
+      <img src="assets/1.png" alt="YAGLA's Lists screen showing a shared weekly shop with items still to get">
+      <img src="assets/2.png" alt="Shopping Mode listing items grouped by supermarket aisle">
+      <img src="assets/3.png" alt="A list showing which household member added each item">
+    </div>
+
+    <section>
+      <h2>Why YAGLA</h2>
+      <p style="color:var(--muted);margin-top:-8px">
+        Every household runs on the same broken system: someone shouts down the
+        hall, someone else sends a photo of a scrap of paper, and three people
+        forget the milk anyway. A note you screenshot isn't a shared list.
+      </p>
+
+      <div class="features">
+        <div class="feature">
+          <h3>One shared list, live</h3>
+          <p>Everyone in the household adds to the same list, and changes appear on every phone straight away.</p>
+        </div>
+        <div class="feature">
+          <h3>Shopping Mode</h3>
+          <p>The list rearranges itself into the order of the shop, aisle by aisle, so you never double back for the bread.</p>
+        </div>
+        <div class="feature">
+          <h3>Tick off together</h3>
+          <p>Whoever's shopping ticks items as they go, and everyone else watches the list shrink in real time.</p>
+        </div>
+        <div class="feature">
+          <h3>Know who added what</h3>
+          <p>Every item shows who put it on the list, so you can ask before you guess.</p>
+        </div>
+        <div class="feature">
+          <h3>Works offline</h3>
+          <p>Tick things off in the dead zone at the back of the shop; it syncs the moment you have signal again.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Get in touch</h2>
+      <p>
+        Questions, bugs, or a feature you wish it had —
+        <a href="mailto:yagla.app@gmail.com">yagla.app@gmail.com</a>.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site">
+    <a href="privacy.html">Privacy policy</a>
+    <a href="terms.html">Terms of service</a>
+    <p>© 2026 Arslan Aziz · Lahore, Punjab, Pakistan</p>
+  </footer>
+
 </div>
-<footer>Arslan Aziz — Lahore, Punjab, Pakistan · yagla.app@gmail.com</footer>
+
 </body>
 </html>
